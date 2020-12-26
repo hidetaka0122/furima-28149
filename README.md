@@ -61,7 +61,7 @@ _ has_many :purchases
 |Column            |Type             |Options                      |
 |------------------|-----------------|-----------------------------|
 |postal_cord       |string           |null:false                   |
-|prefectures_id    |integer          |null:false, foreign_key:true |
+|prefecture_id    |integer          |null:false, foreign_key:true |
 |municipality      |string           |null:false                   |
 |building_name     |string           |                             |
 |phone_number      |string           |null:false, uniqueness:true  |
